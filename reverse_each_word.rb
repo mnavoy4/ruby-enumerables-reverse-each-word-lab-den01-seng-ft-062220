@@ -19,7 +19,10 @@ def reverse_each_word(string)
   array = string.split
   reversed_array = []
   array.each do |element|
-    reversed_array.push(element)
+    reversed_array.push(element.reverse)
+  end
+  reversed_array
+end
     
 
 
