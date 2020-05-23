@@ -15,14 +15,14 @@
 
 # reverse_each_word("Hello there")
 
-def reverse_each_word(string)
-  array = string.split
-  reversed_array = []
-  array.each do |element|
-    reversed_array.push(element.reverse)
-  end
-  reversed_array.join(" ")
-end
+# def reverse_each_word(string)
+#   array = string.split
+#   reversed_array = []
+#   array.each do |element|
+#     reversed_array.push(element.reverse)
+#   end
+#   reversed_array.join(" ")
+# end
     
 
 
