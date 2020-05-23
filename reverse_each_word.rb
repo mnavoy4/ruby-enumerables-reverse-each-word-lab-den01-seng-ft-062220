@@ -11,8 +11,6 @@ def reverse_each_word(string)
     row_index += 1 
   end
   p reversed_array
-  p element_index
-  p row_index
 end
 
 reverse_each_word("Hello there")
